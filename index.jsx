@@ -10,7 +10,7 @@ class PowComponent extends React.Component {
         let _degree = this.props.degree;
 
         return  <div>
-                    {_num}<sup>{_degree}</sup> = {Math.pow(_num, _degree)}
+                    1) {_num}<sup>{_degree}</sup> = {Math.pow(_num, _degree)}
                 </div>;
     }
 }
@@ -22,7 +22,7 @@ class SquareComponent extends React.Component
         let _squareSize = this.props.squareSize;
         let _color = this.props.color;
 
-        return <div style = {{width : _squareSize, height : _squareSize, backgroundColor : _color}}></div>
+        return <>2) <div style = {{width : _squareSize, height : _squareSize, backgroundColor : _color}}></div></>
     }
 }
 
